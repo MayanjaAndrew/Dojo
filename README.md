@@ -70,6 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ### `npm install -g firebase-tools` to allow firebase rules
+
 "firebase login"
 then "firebase init"
 "firebase deploy --only firestore"
@@ -79,9 +80,12 @@ then "firebase init"
 ### `firebase deploy` to allow deploy to firebase
 
 ### `firebase init`
+
 -Select firestore configure security rules
 -Hosting configure files selcetion
 -Storage configure a security
 
 Default for `firestore rules` and `Firestore indexes`
 Change Hosting setup public directory to `build` yes for urls, no for automatic builds
+
+### `npm install react-router-dom` used version react-router-dom@5.1 to install router
